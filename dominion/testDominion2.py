@@ -29,12 +29,12 @@ supply_order = testUtility.get_supply_order() # correct version
 # Pick 10 cards from box to be in the supply.
 boxList = [k for k in box]
 random.shuffle(boxList)
-# random10 = boxList[:10]   # The correct version
-random10 = boxList[:12]    # The test version
+# random10 = boxList[:10]   # correct version
+random10 = boxList[:12]    # test version
 supply = defaultdict(list,[(k,box[k]) for k in random10])
 
 # The supply always has these cards
-testUtility.get_CTV(supply, player_names, nV, nC)
+testUtility.get_supply(supply, player_names, nV, nC)
 
 # initialize the trash
 trash = []

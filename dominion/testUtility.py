@@ -9,6 +9,19 @@ import Dominion
 def get_player_names():
     return ["Annie", "*Ben", "*Carla"]
 
+
+def get_victory_cards(player_names):
+    if len(player_names) > 2:
+        nV = 12
+    else:
+        nV = 8
+    return nV
+
+
+def get_curse_cards(player_names):
+    nC = -10 + 10 * len(player_names)
+    return nC
+
 def get_box(nV):
     # define box, as shown in assignment 2 specifications
     box = {}
@@ -49,7 +62,7 @@ def get_supply_order():
             6: ['Gold', 'Adventurer'], 8: ['Province']}
 
 
-def get_CTV(supply, player_names, nV, nC):
+def get_supply(supply, player_names, nV, nC):
     supply["Copper"] = [Dominion.Copper()] * (60 - len(player_names) * 7)
     supply["Silver"] = [Dominion.Silver()] * 40
     supply["Gold"] = [Dominion.Gold()] * 30

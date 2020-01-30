@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51f6242f-9012-4304-a8cb-0e48d7341c81" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dominion.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dominion.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testDominion1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testDominion1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testDominion2.py" beforeDir="false" afterPath="$PROJECT_DIR$/testDominion2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testUtility.py" beforeDir="false" afterPath="$PROJECT_DIR$/testUtility.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +37,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.testDominion2">
+  <component name="RunManager" selected="Python tests.pytest for unittest_Dominion.TestCard">
     <configuration name="Dominion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dominion" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,8 +124,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for unittest_Dominion.TestCard" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="dominion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;unittest_Dominion.TestCard&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for unittest_Dominion.TestCard" />
         <item itemvalue="Python.testDominion2" />
         <item itemvalue="Python.testDominion1" />
         <item itemvalue="Python.playDominion" />
@@ -147,22 +167,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1373" y="402" key="FileChooserDialogImpl/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1579557747402" />
-    <state width="579" height="1218" key="GridCell.Tab.0.bottom" timestamp="1579495153566">
+    <state width="746" height="1273" key="GridCell.Tab.0.bottom" timestamp="1580421879240">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="579" height="1218" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1579495153566" />
-    <state width="579" height="1218" key="GridCell.Tab.0.center" timestamp="1579495153566">
+    <state width="746" height="1273" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1580421879240" />
+    <state width="746" height="1273" key="GridCell.Tab.0.center" timestamp="1580421879240">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="579" height="1218" key="GridCell.Tab.0.center/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1579495153566" />
-    <state width="579" height="1218" key="GridCell.Tab.0.left" timestamp="1579495153566">
+    <state width="746" height="1273" key="GridCell.Tab.0.center/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1580421879240" />
+    <state width="746" height="1273" key="GridCell.Tab.0.left" timestamp="1580421879240">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="579" height="1218" key="GridCell.Tab.0.left/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1579495153566" />
-    <state width="579" height="1218" key="GridCell.Tab.0.right" timestamp="1579495153566">
+    <state width="746" height="1273" key="GridCell.Tab.0.left/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1580421879240" />
+    <state width="746" height="1273" key="GridCell.Tab.0.right" timestamp="1580421879240">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="579" height="1218" key="GridCell.Tab.0.right/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1579495153566" />
+    <state width="746" height="1273" key="GridCell.Tab.0.right/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1580421879240" />
     <state width="1150" height="306" key="GridCell.Tab.1.bottom" timestamp="1579495153560">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -179,10 +199,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1150" height="306" key="GridCell.Tab.1.right/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1579495153560" />
-    <state x="1094" y="303" key="SettingsEditor" timestamp="1579383902002">
+    <state x="1094" y="303" key="SettingsEditor" timestamp="1580419530214">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1094" y="303" key="SettingsEditor/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1579383902002" />
+    <state x="1094" y="303" key="SettingsEditor/0.0.2560.1400/3840.505.1920.1040@0.0.2560.1400" timestamp="1580419530214" />
     <state x="3912" y="563" width="1069" height="978" key="dock-window-1" timestamp="1579393530638">
       <screen x="3840" y="505" width="1920" height="1040" />
     </state>

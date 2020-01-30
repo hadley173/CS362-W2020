@@ -14,11 +14,8 @@ from collections import defaultdict
 player_names = testUtility.get_player_names()
 
 # number of curses and victory cards
-if len(player_names) > 2:
-    nV = 100
-else:
-    nV = 8
-nC = -10 + 10 * len(player_names)
+nV = testUtility.get_victory_cards(player_names)
+nC = testUtility.get_curse_cards(player_names)
 
 # Define box
 box = testUtility.get_box(nV)
@@ -33,7 +30,7 @@ supply = defaultdict(list,[(k,box[k]) for k in random10])
 
 # The supply always has these cards
 # testUtility.get_supply(supply, player_names, nV, nC) # this is correct version
-testUtility.get_CTV(supply, player_names, nC, nV)  # test version with parameters swapped
+testUtility.get_supply(supply, player_names, nC, nV)  # test version with parameters swapped
 
 # initialize the trash
 trash = []
